@@ -56,12 +56,20 @@ public class ESUtil {
 
     private static QueryBuilder buildMatchQuery(String[] tags, List<String> keywords) {
         BoolQueryBuilder bqb = new BoolQueryBuilder();
+        List<String> keywords_new = new ArrayList<>();
+        keywords_new.addAll(keywords);
+        keywords_new.add("×");
+        bqb.must(QueryBuilders.termsQuery("textcontent", keywords_new)).must(QueryBuilders.termsQuery("tags", tags));
+
+//        bqb.must(QueryBuilders.termsQuery("tags", tags)).must(QueryBuilders.rangeQuery("time")
+//                .from("2017-06-01 00:00:00")).must(QueryBuilders.matchQuery("textcontent",
+//                StringUtils.join(keywords_new, " ")));
+
 //        bqb.must(QueryBuilders.termsQuery("textcontent", keywords)).must(QueryBuilders.termsQuery("tags", tags));
 
-        bqb.must(QueryBuilders.termsQuery("tags", tags)).must(QueryBuilders.rangeQuery("time")
-                .from("2017-06-01 00:00:00")).must(QueryBuilders.matchQuery("textcontent",
-                StringUtils.join(keywords, " ")));
-
+//        bqb.must(QueryBuilders.termsQuery("tags", tags)).must(QueryBuilders.rangeQuery("time")
+//                .from("2017-06-01 00:00:00")).must(QueryBuilders.matchQuery("textcontent",
+//                StringUtils.join(keywords, " ")));
         return bqb;
     }
 }

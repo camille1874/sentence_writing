@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359a1228-4d0b-4a59-8f9a-f3d5720af7c5" name="Default" comment="" />
+    <list default="true" id="359a1228-4d0b-4a59-8f9a-f3d5720af7c5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/TextUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/ESUtil.class" afterPath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/ESUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sentence_writing/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/logs/err.log" afterPath="$PROJECT_DIR$/../sentence_writing/logs/err.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/logs/log.log" afterPath="$PROJECT_DIR$/../sentence_writing/logs/log.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/../sentence_writing/out/" />
     <ignored path="$PROJECT_DIR$/../sentence_writing/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,14 +45,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ESUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ESUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="62" selection-end-column="50" />
+            <state relative-caret-position="212">
+              <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TianjiNewsClient.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/giiso/elastic/escomm/6.1.5/escomm-6.1.5-sources.jar!/com/giiso/elasticsearch/TianjiNewsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="190" column="30" lean-forward="false" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,11 +70,21 @@
       <file leaf-file-name="DataConstructor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+            <state relative-caret-position="459">
+              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="外观.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sentence_writing/外观.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +92,8 @@
       <file leaf-file-name="TextUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="85">
+              <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../sentence_writing/test.txt">
+      <file leaf-file-name="动力.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sentence_writing/动力.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3114">
-              <caret line="496" column="22" lean-forward="false" selection-start-line="496" selection-start-column="22" selection-end-line="496" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +114,8 @@
       <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="247">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +149,22 @@
       <find>新车搭载的是1.5T1.6T两款发动机，二者最大功率分别为150马力和167马力，峰值扭矩为230牛·米和245牛·米。	1.6T发动机 150马力 230牛·米</find>
       <find>博瑞GEPHEV使用了1.5T发动机电动机的动力组合，其中后驱版车型峰值功率137kW、峰值扭矩410N·m，其中后驱版车型峰值功率137kW、峰值扭矩410N·m。	1.5T发动机 137kW 137kW</find>
       <find>新车将搭载一台1.5T发动机，预计最大功率为156马力，峰值扭矩为215牛·米。	1.5T发动机 156马力 215牛·米</find>
+      <find>仅提供了2.0T一款发动机，其最大功率为220马力，峰值扭矩为350牛·米。	2.0T发动机 220马力 350牛·米</find>
+      <find>新一代唐还将推出搭载2.0T发动机的汽油车型，综合最大功率有望超过500马力，峰值扭矩225Nm。	2.0T发动机 500马力 225Nm</find>
+      <find>两台</find>
+      <find>两</find>
+      <find>分别</find>
+      <find>海外版XT6搭载一台3.6L自然吸气V6发动机，最大功率314马力，峰值扭矩367N·m。	3.6L发动机 314马力 367N·m</find>
+      <find>海外版XT6搭载一台3.6L自然吸气V6发动机，最大功率314马力，峰值扭矩367N·m，海外版XT6搭载一台3.6L自然吸气V6发动机。	3.6L发动机 314马力 367N·m 3.6L</find>
+      <find>只保留了老款的2.0T发动机，该发动机最大功率为162kW，峰值扭矩350Nm，全新比亚迪唐燃油版将搭载一台2.0T发动机。	2.0T发动机 162kW 350Nm 2.0T</find>
+      <find>一款</find>
+      <find>这次出席实测的车型装备了一台2.0T发动机，其最大输出功率是261马力，峰值扭矩350Nm。</find>
+      <find>新车搭载一台2.0L自然吸气发动机加电动机组，其中2.0L发动机最大功率为115kW，峰值扭矩为189Nm。	2.0L发动机 2.0L 189Nm</find>
+      <find>cleanStr</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../sentence_writing" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -131,10 +178,12 @@
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/ESUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java" />
-        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
-        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/test.txt" />
+        <option value="$PROJECT_DIR$/../sentence_writing/动力.txt" />
+        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
+        <option value="$PROJECT_DIR$/../sentence_writing/外观.txt" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" />
+        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" />
       </list>
     </option>
   </component>
@@ -150,6 +199,7 @@
     <option name="width" value="1438" />
     <option name="height" value="860" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -166,6 +216,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,7 +256,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,11 +422,13 @@
       <option name="presentableId" value="Default" />
       <updated>1547521151633</updated>
       <workItem from="1547521159703" duration="16236000" />
+      <workItem from="1547716354502" duration="2731000" />
+      <workItem from="1548120959125" duration="15703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16236000" />
+    <option name="totallyTimeSpent" value="34670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="14" width="1438" height="860" extended-state="1" />
@@ -384,26 +436,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32797858" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47058824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4712182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32797858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -423,14 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/resources/es_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -439,7 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataUtil.java">
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/resources/es_config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -447,29 +491,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="1140">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="62" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -479,8 +503,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="228">
           <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,9 +533,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3114">
+        <state relative-caret-position="9424">
           <caret line="496" column="22" lean-forward="false" selection-start-line="496" selection-start-column="22" selection-end-line="496" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/resources/es_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/giiso/elastic/escomm/6.1.5/escomm-6.1.5-sources.jar!/com/giiso/elasticsearch/TianjiNewsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="190" column="30" lean-forward="false" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="1054" column="0" lean-forward="true" selection-start-line="1054" selection-start-column="0" selection-end-line="1054" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/动力.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/外观.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

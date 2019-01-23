@@ -1,0 +1,4 @@
+[2019-01-22 11:30:05,711][main][WARN ] c.g.e.TianjiNewsClientFactory.initInstance(45): No cluster found in 192.168.2! retrying
+[2019-01-22 11:30:32,319][main][WARN ] c.g.e.TianjiNewsClientFactory.initInstance(45): No cluster found in 192.168.2! retrying
+[2019-01-22 11:30:56,849][main][WARN ] c.g.e.TianjiNewsClientFactory.initInstance(45): No cluster found in 192.168.2! retrying
+[2019-01-22 11:31:59,284][main][WARN ] c.g.e.TianjiNewsClientFactory.initInstance(45): No cluster found in 192.168.2! retrying
