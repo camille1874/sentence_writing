@@ -11,10 +11,10 @@ import java.util.regex.Pattern;
  * Created by xuzh on 2019/1/15.
  */
 public class TextUtil {
-    public static List<String> parseResult(List<Map<String, Object>> results, List<String> keywords, String type) {
+    public static List<String> parseResult(List<Map<String, Object>> results, List<String> keywords, String type, List<String> shieldWords, boolean hasPara) {
         List<String> result = new ArrayList<>();
         for (Map<String, Object> m : results) {
-            String tmp = getSens((String) m.get("textcontent"), keywords, type);
+            String tmp = getSens((String) m.get("textcontent"), keywords, type, shieldWords, hasPara);
             if (!tmp.equals("") && !result.contains(tmp)) {
                 result.add(tmp);
             }
@@ -22,38 +22,43 @@ public class TextUtil {
         return result;
     }
 
-    public static String getSens(String doc, List<String> keywords, String type) {
+    public static String getSens(String doc, List<String> keywords, String type, List<String> shieldWords, boolean hasPara) {
         doc = cleanStr(doc, type);
-        String[] sens = doc.split("[，|,|。|！|!|?|；|;|？|?|“|”|\"]");
-//        StringBuffer sb = new StringBuffer();
         List<String> str = new ArrayList<>();
         List<String> attr = new ArrayList<>();
+        String[] sens = doc.split("[，|,|。|！|!|?|；|;|？|?|“|”|\"]");
+        int maxLen = 40;
         for (String k : keywords) {
             for (String s : sens) {
-                if (type == "动力" && s.contains("两") || s.contains("分别")) {
-                    return "";
-                }
-                if (type == "外观" && s.contains("：")) {
-                    return "";
-                }
-                if (s.contains(k)) {
-//                    System.out.println(s);
-//                    System.out.println(k);
-                    String val = getAttr(s, type);
-                    if (val.equals("")) {
-                        return "";
+                if (shieldWords != null) {
+                    for (String sw : shieldWords) {
+                        if (s.contains(sw)) {
+                            return "";
+                        }
                     }
-                    str.add(s + "，");
-//                    System.out.println(val);
-                    if (type == "动力" && k.equals("发动机")) {
-                        attr.add(val + k);
+                }
+                if (s.contains(k) && s.length() < maxLen) {
+                    if (hasPara) {
+                        String val = getAttr(s, type);
+                        if (val.equals("")) {
+                            return "";
+                        }
+                        str.add(s + "，");
+                        if (type == "动力" && k.equals("发动机")) {
+                            attr.add(val + k);
+                        } else {
+                            attr.add(val);
+                        }
                     } else {
-                        attr.add(val);
+                        System.out.println(s);
+                        str.add(s + "，");
+                        attr.add(k);
                     }
                     break;
                 }
             }
         }
+
         StringBuffer sb = new StringBuffer();
         sb.append(String.join("", str));
         if (sb.length() == 0) return "";
@@ -84,7 +89,7 @@ public class TextUtil {
             m = p.matcher(str);
             if (m.find()) return m.group();
         } else if (type == "外观") {
-            regEx = "(\\d+(mm)?)[×/](\\d+(mm)?)[×/](\\d+mm)";
+            regEx = "(\\d+(mm)?)[×/](\\d+(mm)?)[×/](\\d+mm)$";
             p = Pattern.compile(regEx);
             m = p.matcher(str);
             if (m.find()) return m.group();

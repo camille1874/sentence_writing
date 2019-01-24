@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359a1228-4d0b-4a59-8f9a-f3d5720af7c5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/TextUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sentence_writing/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor$2.class" afterPath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor.class" afterPath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/DataConstructor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/ESUtil.class" afterPath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/ESUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/TextUtil.class" afterPath="$PROJECT_DIR$/../sentence_writing/target/classes/data_constructor/TextUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sentence_writing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/logs/err.log" afterPath="$PROJECT_DIR$/../sentence_writing/logs/err.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/logs/log.log" afterPath="$PROJECT_DIR$/../sentence_writing/logs/log.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" afterPath="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/动力.txt" afterPath="$PROJECT_DIR$/../sentence_writing/动力.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sentence_writing/外观.txt" afterPath="$PROJECT_DIR$/../sentence_writing/外观.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/../sentence_writing/out/" />
     <ignored path="$PROJECT_DIR$/../sentence_writing/target/" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sentence_writing/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="es_config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/resources/es_config.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ESUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ESUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+            <state relative-caret-position="363">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +60,8 @@
       <file leaf-file-name="DataConstructor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +69,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="描述.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sentence_writing/描述.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="436" column="0" lean-forward="true" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="单一属性_颜色.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sentence_writing/单一属性_颜色.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3097">
+              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="外观.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/外观.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +102,8 @@
       <file leaf-file-name="TextUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="34" />
+            <state relative-caret-position="157">
+              <caret line="16" column="102" lean-forward="false" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +114,8 @@
       <file leaf-file-name="动力.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sentence_writing/动力.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="905" column="0" lean-forward="true" selection-start-line="905" selection-start-column="0" selection-end-line="905" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +171,8 @@
       <find>这次出席实测的车型装备了一台2.0T发动机，其最大输出功率是261马力，峰值扭矩350Nm。</find>
       <find>新车搭载一台2.0L自然吸气发动机加电动机组，其中2.0L发动机最大功率为115kW，峰值扭矩为189Nm。	2.0L发动机 2.0L 189Nm</find>
       <find>cleanStr</find>
+      <find>所以COS1°的车身尺寸达到了4830×1868×1750/1775mm</find>
+      <find>getAttr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,10 +191,12 @@
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/FileUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/test.txt" />
-        <option value="$PROJECT_DIR$/../sentence_writing/动力.txt" />
-        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
         <option value="$PROJECT_DIR$/../sentence_writing/外观.txt" />
+        <option value="$PROJECT_DIR$/../sentence_writing/描述.txt" />
+        <option value="$PROJECT_DIR$/../sentence_writing/动力.txt" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java" />
+        <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java" />
+        <option value="$PROJECT_DIR$/../sentence_writing/单一属性_颜色.txt" />
         <option value="$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java" />
       </list>
     </option>
@@ -423,12 +437,12 @@
       <updated>1547521151633</updated>
       <workItem from="1547521159703" duration="16236000" />
       <workItem from="1547716354502" duration="2731000" />
-      <workItem from="1548120959125" duration="15703000" />
+      <workItem from="1548120959125" duration="30812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34670000" />
+    <option name="totallyTimeSpent" value="49779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="14" width="1438" height="860" extended-state="1" />
@@ -443,7 +457,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4712182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33467203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -582,26 +596,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/动力.txt">
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/外观.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sentence_writing/外观.txt">
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/动力.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="905" column="0" lean-forward="true" selection-start-line="905" selection-start-column="0" selection-end-line="905" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/描述.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="436" column="0" lean-forward="true" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/TextUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="34" />
+        <state relative-caret-position="157">
+          <caret line="16" column="102" lean-forward="false" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -610,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/DataConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -620,11 +642,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sentence_writing/src/main/java/data_constructor/ESUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+        <state relative-caret-position="363">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sentence_writing/单一属性_颜色.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

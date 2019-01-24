@@ -1,0 +1,60 @@
+[2019-01-23 11:21:44,011][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:21:46,884][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 11:25:30,334][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:25:33,007][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 11:43:15,845][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:43:18,371][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.188:9200, 192.168.2.110:9200]
+[2019-01-23 11:49:38,342][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:49:41,013][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.110:9200]
+[2019-01-23 11:53:46,478][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:53:48,996][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.188:9200]
+[2019-01-23 11:57:14,019][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 11:57:16,950][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 12:00:51,057][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 12:00:54,086][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 12:04:05,786][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 12:04:08,481][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.110:9200, 192.168.2.85:9200]
+[2019-01-23 12:10:29,124][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 12:10:32,083][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 16:52:17,047][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 16:52:19,641][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.188:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 16:53:43,246][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 16:53:48,357][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 16:55:56,061][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 16:55:58,748][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:06:19,222][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:06:22,101][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:07:18,297][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:07:21,194][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.110:9200]
+[2019-01-23 17:11:22,211][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:11:24,720][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:15:54,241][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:15:56,952][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:30:05,594][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:30:08,517][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:31:29,168][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:31:31,921][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:32:37,464][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:32:40,202][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:34:15,662][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:34:18,615][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.188:9200, 192.168.2.110:9200]
+[2019-01-23 17:35:55,950][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:35:58,855][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:37:52,273][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:37:55,262][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:41:01,718][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:41:04,417][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:43:28,150][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:43:31,050][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:47:55,015][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:47:57,950][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:49:08,202][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:49:10,982][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:51:32,598][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:51:35,531][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.188:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:53:16,937][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:53:19,863][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.188:9200, 192.168.2.110:9200]
+[2019-01-23 17:56:24,289][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:56:27,194][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.83:9200, 192.168.2.82:9200, 192.168.2.110:9200, 192.168.2.81:9200, 192.168.2.85:9200, 192.168.2.84:9200]
+[2019-01-23 17:57:06,354][main][INFO ] d.ESUtil: Is connecting to ES.
+[2019-01-23 17:57:09,080][main][INFO ] c.g.e.TianjiNewsClientFactory: Create TianjiNewsClient6 with [192.168.2.188:9200, 192.168.2.110:9200]
