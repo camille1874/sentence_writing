@@ -108,9 +108,9 @@ public class TextUtil {
     public static String cleanStr(String str, String type) {
         String regEx;
         if (type != "外观") {
-            regEx = "[`~@#$%^&*()+=|{}':;'<>/~@#￥（）——+{}【】\"\'\\s\t\r\n]";
+            regEx = "[`~@#$%^&*()+=|{}':;.'<>/~@#￥（）——+{}【】●★\"\'\\s\t\r\n]";
         } else {
-            regEx = "[`~@#$%^&()={}':;'<>~@#￥%&（）{}【】\"\'\\s\t\r\n]";
+            regEx = "[`~@#$%^&()={}':;.'<>~@#￥%&（）{}【】●★\"\'\\s\t\r\n]";
         }
         Pattern p = Pattern.compile(regEx);
         Matcher m = p.matcher(str);

@@ -34,7 +34,7 @@ public class DataConstructor {
         List<String> keywords = key_map.get(type);
         List<Map<String, Object>> docs = ESUtil.searchDocs(tags, size, keywords);
         List<String> results = TextUtil.parseResult(docs, keywords, type, shieldWords, hasPara);
-        FileUtil.writeFile(type + ".txt", results);
+        FileUtil.writeFile(type + ".txt", results, true);
     }
 
     public void getData(int size, String[] tags, String type, boolean hasPara) {
@@ -42,7 +42,7 @@ public class DataConstructor {
         List<String> keywords = key_map.get(type);
         List<Map<String, Object>> docs = ESUtil.searchDocs(tags, size, keywords);
         List<String> results = TextUtil.parseResult(docs, keywords, type, null, hasPara);
-        FileUtil.writeFile(type + ".txt", results);
+        FileUtil.writeFile(type + ".txt", results, true);
     }
 
     public static void main(String[] args) {
