@@ -28,6 +28,7 @@ public class TextUtil {
         List<String> attr = new ArrayList<>();
         String[] sens = doc.split("[，|,|。|！|!|?|；|;|？|?|“|”|\"]");
         int maxLen = 40;
+        int minLen = 10;
         for (String k : keywords) {
             for (String s : sens) {
                 if (shieldWords != null) {
@@ -37,7 +38,7 @@ public class TextUtil {
                         }
                     }
                 }
-                if (s.contains(k) && s.length() < maxLen) {
+                if (s.contains(k) && s.length() < maxLen && s.length() > minLen) {
                     if (hasPara) {
                         String val = getAttr(s, type);
                         if (val.equals("")) {

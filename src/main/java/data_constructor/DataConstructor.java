@@ -1,6 +1,5 @@
 package data_constructor;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -73,26 +72,27 @@ public class DataConstructor {
 //            }
 //        }
 
-        String type = "单一属性_颜色";
-        String[] color = {"白色车身", "黑色车身", "银色车身", "红色车身", "黄色车身", "蓝色车身", "紫色车身", "绿色车身", "橙色车身"};
-        for (int i = 0; i < color.length; ++i) {
-            List<String> l = new ArrayList<>();
-            l.add(color[i]);
-            key_map.put(type, l);
-//            List<String> shieldWords = Arrays.asList(color);
-//            shieldWords.remove(i); //UnsupportedOperationException
-            List<String> shieldWords = new ArrayList<>();
-            for (int k = 0; k < color.length; ++k) {
-                if (k != i) {
-                    shieldWords.add(color[k]);
-                }
-            }
-            d.getData(5000, tags, type, shieldWords, false);
-            key_map.clear();
-        }
-        type = "单一属性_类型";
+//        String type = "单一属性_颜色";
+//        String[] color = {"白色车身", "黑色车身", "银色车身", "红色车身", "黄色车身", "蓝色车身", "紫色车身", "绿色车身", "橙色车身"};
+//        for (int i = 0; i < color.length; ++i) {
+//            List<String> l = new ArrayList<>();
+//            l.add(color[i]);
+//            key_map.put(type, l);
+////            List<String> shieldWords = Arrays.asList(color);
+////            shieldWords.remove(i); //UnsupportedOperationException
+//            List<String> shieldWords = new ArrayList<>();
+//            for (int k = 0; k < color.length; ++k) {
+//                if (k != i) {
+//                    shieldWords.add(color[k]);
+//                }
+//            }
+//            d.getData(5000, tags, type, shieldWords, false);
+//            key_map.clear();
+//        }
+
+        String type = "单一属性_类型";
         String[] carType = {"中型车", "小型车", "微型车", "大中型车", "大型车", "紧凑型车", "中小型车"};
-        for (int i = 0; i < color.length; ++i) {
+        for (int i = 0; i < carType.length; ++i) {
             List<String> l = new ArrayList<>();
             l.add(carType[i]);
             key_map.put(type, l);
@@ -102,6 +102,7 @@ public class DataConstructor {
                     shieldWords.add(carType[k]);
                 }
             }
+            shieldWords.add("排名");
             d.getData(5000, tags, type, shieldWords, false);
             key_map.clear();
         }
